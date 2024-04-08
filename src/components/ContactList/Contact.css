@@ -1,0 +1,48 @@
+.Avatar{
+    vertical-align: middle;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.NameItem {
+    top: 20px;
+    font-size: 1.2rem;
+}
+
+.ContactItem:hover{
+    background-color: #f5f5f5;
+    width: 100%;
+    cursor: pointer;
+}
+
+.EmailView {
+    top: 20px;
+    font-size: 1.2rem;
+}
+
+.PhoneNumberView {
+    top: 20px;
+    width: auto;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 768px) {
+    .EmailView {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .PhoneNumberView {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .NameItem {
+        width: auto;
+        padding-right: 70px;
+        font-size: 1.4rem;
+    }
+}

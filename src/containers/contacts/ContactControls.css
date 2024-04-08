@@ -1,0 +1,13 @@
+.Delete {
+    cursor: pointer;
+    vertical-align: middle;
+    padding-top: 18px;
+    padding-right: 18px;
+    color: rgb(187, 187, 187);
+}
+
+@media (max-width: 575px) {
+    .Delete {
+        display: none;
+    }
+}

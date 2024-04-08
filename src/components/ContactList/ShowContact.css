@@ -1,0 +1,44 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Name {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.Avatar {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.Icons{
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #c69e00;
+}
+
+.Info{
+    margin-top: 20px;
+}
+
+.PostalCode {
+    padding-left: 12%;
+}
+
+@media (max-width: 500px) {
+    .PostalCode {
+        padding-left: 12%;
+        padding-top: 2%;
+        display: block;
+    }
+    .card {
+        margin-right: 15px;
+        align-self: center;
+    }
+}
+

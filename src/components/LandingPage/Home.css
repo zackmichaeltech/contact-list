@@ -1,0 +1,41 @@
+.Home{
+    margin-top: 20%;
+    text-align: center;
+    margin-left: 12%;
+    width: 75%;
+    height: 350px;
+    box-sizing: border-box;
+    align-content: center;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.Greeting {
+
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.LoginNotice {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.Notice {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.React {
+    margin-top: 50px;
+    height: 35%;
+    width: 20%;
+    float:left;
+    padding-left: 5px;
+}
+
+@media (max-width: 840px) {
+    .React {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.Contact {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    background-color: #eee;
+}
+
+.Button {
+    margin: 5px;
+}
